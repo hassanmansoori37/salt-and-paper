@@ -8,6 +8,7 @@
     font-family: "Poppins", serif;
     font-weight: 400;
     font-style: normal;
+   
 }
 
 html{
@@ -22,6 +23,9 @@ html{
 }
 .text-center{
     text-align: center;
+}
+.text-end{
+    text-align: end;
 }
 .text-none{
     text-decoration: none;
@@ -75,8 +79,15 @@ html{
 .justify-between{
     justify-content: space-between;
 }
+.justify-start{
+    justify-content: start;
+}
+
 .item-center{
     align-items: center;
+}
+.item-start{
+    align-items: start;
 }
 .flex-wrap{
     flex-wrap: wrap;
@@ -118,10 +129,90 @@ html{
 .m-5{
     margin: 25px;
 }
+.mt-1{
+    margin-top: 5px;
+}
+.mt-2{
+    margin-top: 10px;
+}
+.mt-3{
+    margin-top: 15px;
+}
+.mt-4{
+    margin-top: 20px;
+}
+.mt-5{
+    margin-top: 25px;
+}
+.ml-1{
+    margin-left: 20px;
+}
+.ml-2{
+    margin-left: 40px;
+}
+.ml-3{
+    margin-left: 60px;
+}
+.ml-4{
+    margin-left: 80px;
+}
+.ml-5{
+    margin-left: 100px;
+}
+.mr-1{
+    margin-right: 20px;
+}
+.mr-2{
+    margin-right: 40px;
+}
+.mr-3{
+    margin-right: 60px;
+}
+.mr-4{
+    margin-right: 80px;
+}
+.mr-5{
+    margin-right: 100px;
+}
+.mb-1{
+    margin-bottom: 20px;
+}
+.font-size{
+    font-size: 3rem;
+}
+.font-size-1{
+    font-size: 1.5rem;
+
+}
+.font-size2{
+    font-size: 1.2rem;
+}
+.position-abs{
+    position: absolute;
+}
+.font-size3{
+    font-size: 3.5rem;
+}
+.font-size4{
+    font-size: 4rem;
+}
+
 .border{
+    border: 1px solid var(--white);
+}
+.border-1{
     border: 1px solid var(--white);
 }
 .rounded{
     border-radius: 30px;
     cursor: pointer;
 }
+@font-face {
+    font-family: 'futurak';
+    src: url(../asset/font/futurak.ttf);
+}
+.futurak{
+    font-family: 'futurak';
+}
+
+
