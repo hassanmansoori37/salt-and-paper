@@ -200,15 +200,39 @@
     border-radius: 10px;
 }
 #container-2{
-    width: 450px;
+    width: 350px;
     height: 400px;
-    margin-left: 100px;
+    margin-left: 80px;
 }
 #image-10{
     width: 300px;
     height: 250px;
     border-radius: 10px;
 }
+#image-11{
+    width: 300px;
+    height: 250px;
+    border-radius: 10px;
+}
+#container-3{
+    width: 350px;
+    height: 400px;
+    margin-left: 80px;
+}
+#image-12{
+    width: 500px;
+    height: 250px;
+    border-radius: 10px;
+}
+#image-13{
+    width: 450px;
+    height: 250px;
+    border-radius: 10px;
+}
+.container-4{
+    width: 500px;
+}
+
 
 
 
